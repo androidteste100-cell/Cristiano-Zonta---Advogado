@@ -226,7 +226,7 @@
     window.addEventListener("resize", resizeCanvas);
 
     // Array de Sequência WebP com Fallback de Rendimento Dinâmico
-    const frameCount = 60;
+    const frameCount = 240;
     const currentFrame = { frame: 0 };
     const images = [];
     let imagesLoaded = 0;
